@@ -1,10 +1,9 @@
 import React from "react";
 
-import pic from "../../public/photo.avif";
+import pic from "../../public/kamran.jpeg";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
 
 import { SiMongodb } from "react-icons/si";
@@ -12,7 +11,6 @@ import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 
-import { ReactTyped } from "react-typed";
 
 function Home() {
   return (
@@ -23,26 +21,18 @@ function Home() {
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-            <span className="text-xl">Welcome In My Feed</span>
-            <div className="flex space-x-1 text-2xl md:text-4xl">
-              <h1>Hello, I'm a</h1>
+            <span className="text-xl">Welcome To My Portfolio</span>
+            <div className="flex space-x-1 text-2xl md:text-4xl ">
+              <h1>Hello, Im Mohd Sultan</h1>
               {/* <span >Developer</span> */}
-              <ReactTyped
-                className="text-red-700 font-bold"
-                strings={["Developer", "Programmer", "Coder"]}
-                typeSpeed={40}
-                backSpeed={50}
-                loop={true}
-              />
+             
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
-            </p>
+             Hii,im Mohd Sultan a passionate MERN Stack Developer from Prayagraj.
+             i build responsive and user-friendly web applications using React.js Node.js 
+             Express.js and MongoDB I enjoy learning neew technologies and creating real-world 
+             projects that slove practical problems. </p>
             <br />
             {/* social media icons */}
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
@@ -59,11 +49,7 @@ function Home() {
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
-                  <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                      <IoLogoYoutube className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
+                
                   <li>
                     <a href="https://t.me/" target="_blank">
                       <FaTelegram className="text-2xl cursor-pointer" />

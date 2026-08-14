@@ -1,0 +1,54 @@
+
+.projects {
+  padding: 80px 8%;
+  background: white;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.project-card p {
+  color: #555;
+  line-height: 1.7;
+}
+
+.tech-details {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}
+
+.tech-details p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.tech-details strong {
+  color: #45ca24;
+}

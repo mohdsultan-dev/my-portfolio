@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-import PortFolio from "./components/PortFolio";
-import Experiance from "./components/Experiance";
+import Skills from "./components/Skills";
+import Certifications from "./components/Certifications";
+
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast";
@@ -15,8 +17,10 @@ function App() {
         <Navbar />
         <Home />
         <About />
-        <PortFolio />
-        <Experiance />
+        <Skills />
+        <Certifications/>
+        <Projects/>
+
         <Contact />
         <Footer />
       </div>
