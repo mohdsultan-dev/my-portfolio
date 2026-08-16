@@ -4,7 +4,7 @@ import React from "react";
 function Certifications() {
   const certifications = [
     {
-      title: "TCS Career Edge",
+      title: "TCS iON Career Edge",
       issuer: "TCS iON",
       image: "/tcs ion.jpeg",
     },
@@ -12,6 +12,11 @@ function Certifications() {
       title: "MERN Stack Development",
       issuer: "Arudan Technologies",
       image: "/arudan technologies.jpeg",
+    },
+    {
+      title: "Artificial Intelligence Fundamentals",
+      issuer: "IBM SkillsBuild",
+      image: "/IBM.jpeg",
     },
   ];
 
